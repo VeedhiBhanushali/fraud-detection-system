@@ -10,3 +10,4 @@ boto3
 redis
 requests
 psycopg2-binary
+optuna
