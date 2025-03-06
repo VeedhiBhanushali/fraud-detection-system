@@ -37,4 +37,4 @@ def predict_fraud(transaction: Transaction):
     except Exception as e:
         raise HTTPException(status_code=500, detail=str(e))
 
-print("✅ Fraud Detection API is running.")
+print("Fraud Detection API is running.")
