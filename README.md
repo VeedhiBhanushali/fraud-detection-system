@@ -179,7 +179,7 @@ uvicorn src.fastapi_service:app --host 0.0.0.0 --port 8001
 ## Want to See More?
 
 📂 **Code Repository**: [GitHub](https://github.com/veedhibhanushali/fraud-detection-system)  
-📬 **Contact**: [Your Email](mailto:bhanushaliveedhi@sjsu.edu)  
+📬 **Contact**: [Email](mailto:bhanushaliveedhi@sjsu.edu)  
 📝 **Author**: *[Veedhi Bhanushali](https://veedhibhanushali.com)*  
 
 
