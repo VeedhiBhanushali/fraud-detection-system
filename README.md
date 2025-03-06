@@ -46,29 +46,29 @@ The **Fraud Detection System** is a **real-time, scalable fraud prevention platf
               │   - Receives transaction data             │
               │   - Sends transactions to Kafka           │
               └───────────────────────────────────────────┘
-                                     │
-                                     ▼
+                                    │
+                                    ▼
               ┌───────────────────────────────────────────┐
               │              Kafka (Event Stream)         │
               │   - Producer sends transactions           │
               │   - Consumer processes transactions       │
               └───────────────────────────────────────────┘
-                                     │
-                                     ▼
+                                    │
+                                    ▼
               ┌───────────────────────────────────────────┐
               │              Fraud Detection Model        │
               │   - ML-based fraud scoring                │
               │   - Threshold-based detection             │
               └───────────────────────────────────────────┘
-                                     │
-                                     ▼
+                                    │
+                                    ▼
               ┌───────────────────────────────────────────┐
               │              Redis (Cache)                │
               │   - Caches high-risk transactions         │
               │   - Reduces API response time             │ 
               └───────────────────────────────────────────┘
-                                     │
-                                     ▼
+                                    │
+                                    ▼
               ┌───────────────────────────────────────────┐
               │              Database (Optional)          │
               │   - Stores transaction history            │
